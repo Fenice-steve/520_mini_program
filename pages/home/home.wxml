@@ -1,0 +1,42 @@
+
+<view class="pageBackground" >
+
+
+<view class="row"> 
+<text class="textShow">输入文字</text>
+<input bindinput="getOneinput" class="inputStyle" auto-focus type="text" value="{{inputOneWord}}" />
+<input bindinput="getTwoinput" class="inputStyle"  type="text"  value="{{inputTwoWord}}"  />
+<input bindinput="getThreeinput" class="inputStyle" type="text" value="{{inputThreeWord}}"  />
+<view ><button class="buttonDown" type="default" bindtap="btnClearWord" size="mini" style="color:#000000">清空</button></view>
+
+</view>
+
+
+<view class="row"> 
+<text class="textShowNum">输入需要生成\n图案的数字</text>
+<input bindinput="getNumOneinput" class="inputStyle" placeholder-class="phtext" type="number" maxlength="1" value="{{inputOneNum}}"/>
+<input bindinput="getNumTwoinput" class="inputStyle" placeholder-class="phtext" type="number" maxlength="1" value="{{inputTwoNum}}"/>
+<input bindinput="getNumThreeinput" class="inputStyle" placeholder-class="phtext" type="number" maxlength="1" value="{{inputThreeNum}}"/>
+<view ><button class="buttonDown" type="default" bindtap="btnClearNum" size="mini" style="color:#000000">清空</button></view>
+</view>
+
+<view class="row">
+<button class="btnStyle" type="default" bindtap="btnShare" style="color:#000000" size="default" open-type="share" title="520来表白">分享</button>
+<button class="btnStyle" type="default" bindtap="btnCreate"  style="color:#000000"size="default">生成</button>
+
+</view>
+
+<view class="row"><text>小提示：长按点击下面文本框复制</text></view>
+
+<view class="textStyle" style="user-select:text !important;-webkit-user-select">
+<text class="text" selectable="true" user-select="true"  space="emsp" decode="true">{{title}}</text>
+</view>
+
+<view class="row"><text>使用时请先清空输入框中的示例文字和数字</text></view>
+
+
+<view class="insertColor"></view>
+
+</view>
+
+

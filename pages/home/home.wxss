@@ -1,0 +1,13 @@
+/* pages/home/home.wxss */
+.pageBackground{background-color: #DCDCDC; height: 100%; width: 100%;}
+
+
+.row{display: flex; padding-top: 40rpx; justify-content: space-evenly;-webkit-user-select: none !important;}
+.row .buttonDown{margin-top: 14rpx; background-color: white; color: white;border-radius: 98rpx; font-size: 28rpx;border-color: black; border-style:solid; border-width: 0.05ch;
+}
+.textStyle{margin: 40rpx;height: 400rpx; width: auto; background:white;border-color: black; border-style:solid; border-width: 0.05ch; align-items: center;display:flex;justify-content:center; }
+.textStyle .text{justify-content:center; color: black; }
+.textShow{margin-top: 25rpx; justify-content: center; margin-right: 30rpx; margin-left: 33rpx;}
+.btnStyle{ border-color: black; border-style:solid; border-width: 0.05ch; }
+.inputStyle{width: 90rpx; height: 70rpx; background: white; border-radius: 0rpx;margin: 5rpx;padding: 5rpx; size: 60rpx; border-color: black; border-style:solid; border-width: 0.05ch;-webkit-user-select: none !important; }
+.insertColor{color: #F5DF4D; height: 1000rpx;}
